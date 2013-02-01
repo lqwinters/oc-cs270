@@ -1,2 +1,7 @@
-oc-cs270
-========
+<h1>CS 270: Software Engineering</h1>
+
+<h2>Spring 2013</h2>
+
+A repository for the site created while doing coursework.
+
+Live website at Heroku - https://dashboard.heroku.com/apps
