@@ -4,4 +4,4 @@
 
 A repository for the site created while doing coursework.
 
-Live website at Heroku - https://dashboard.heroku.com/apps
+Live website at https://dashboard.heroku.com/apps
