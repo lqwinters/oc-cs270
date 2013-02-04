@@ -4,4 +4,4 @@
 
 A repository for the site created while doing coursework.
 
-Live website at https://dashboard.heroku.com/apps
+Live website at https://lwinters-cs270.herokuapp.com
