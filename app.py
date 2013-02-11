@@ -12,6 +12,11 @@ def hello():
 def assignment_1():
     return redirect(url_for('static', filename='Assignment1.html'))
 
+# Assignment 3: Chapter 3 excercise 3.1
+@app.route('/assignment-1')
+def assignment_1():
+    return redirect(url_for('static', filename='Assignment1.html'))
+
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
     port = int(os.environ.get('PORT', 5000))
