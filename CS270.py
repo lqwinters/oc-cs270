@@ -10,7 +10,7 @@ def hello():
 # Assignment 1: First HTML assignment
 @app.route('/assignment-1')
 def assignment_1():
-    return redirect(url_for('static', filename = 'Assignment1.html'))
+    return redirect(url_for('static', filename='Assignment1.html'))
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
