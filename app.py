@@ -14,7 +14,7 @@ def assignment_1():
 
 # Assignment 3: Exercise 3.1
 @app.route('/assignment-3')
-def assignment_1():
+def assignment_3():
     return redirect(url_for('static', filename='assignment-3.html'))
 
 if __name__ == '__main__':
