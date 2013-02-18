@@ -1,0 +1,26 @@
+h1.page-header {
+    padding: 1em;
+    /*padding-left: 45em;*/
+    text-align: center;
+    color: #000000;
+    background-color: #DDA0DD;
+    border-bottom: 0.1em;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    line-height: 2em;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: sans-serif;
+    padding-left: 10em;
+    font-weight: lighter;
+    
+}
+
+ul {
+    padding-left: 20em;
+    font-family: sans-serif;
+}
