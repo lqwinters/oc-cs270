@@ -10,7 +10,7 @@ h1.page-header {
     line-height: 2em;
     /*text-transform: uppercase;*/
     font-variant: small-caps;
-    font-family: fantasy;
+    font-family: critter, cottonwood, fantasy;
 }
 
 h2 {
