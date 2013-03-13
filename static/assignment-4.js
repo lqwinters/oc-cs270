@@ -110,13 +110,3 @@ else {
     alert('InValid');
 	
 }
-
-
-
-
-
-
-
-
-
-
