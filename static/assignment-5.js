@@ -1,37 +1,33 @@
-// assignment-5.js
-// Excercise 5.1 from chapeter 5. Modify the radio_click.html example
-// to have five buttons, labeled red, blue, green, yellow and orange.
-// The event handlers for these buttons must produce messages stating
-// the chosen favorite color. The event handler must be implemented as 
-// a function whose name must be assigned to the onclick attribute of the
-// radio button elements. The chosen color must be sent to the event handler
-// as a parameter.
+// Assignment-5.js 
+// Ch.4 exercises 4.6-4.10
 
+// Exercise 4.6
+// Input: A line of text, using prompt.
+// Output: The words of the input text, in alphabetical order.
+document.write('<h1>Exercise 4.6</h1>');
 
-// The event handler for a radio button collection
+var line = prompt('Please enter a line of text', '');
+var lineArr = line.split(' ');
+var alpha = lineArr.sort()
 
-function colorChoice (color) {
+document.write('<p>Below displays the words from the line of text entered in alphabetical order.</p><br />')
+document.write(alpha + '<br />');
 
-// Produce an alert message about the chosen color
+// Exercise 4.7
+// Modify exercise 4.6 to get a second input from the user, which is either
+// "assending" or "decending".
+document.write('<h1>Exercise 4.7</h1>');
 
-  switch (color) {
-    case 150: 
-      alert("Your favorite color is Red!");
-      break;
-    case 160: 
-      alert("Your favorite color is Blue!");
-      break; 
-    case 170:
-      alert("Your favorite color is Green!");
-      break;    
-    case 180:
-      alert("Your favorite color is Yellow!");
-      break;
-    case 190:
-      alert("Your favorite color is Orange!");
-      break; 
-    default:
-      alert("Error in JavaScript function colorChoice");
-      break;
-  }
-}
+var line2 = prompt('Please enter a second line of text', '');
+var l2Arr = line2.split(' ');
+var decend = l2Arr.reverse();
+
+document.write('<p>Below displays the words from the line of text entered in decending order.</p><br />')
+document.write(decend + '<br />');
+
+// Exercise 4.8
+// Function: no_zeros
+// Parameter: An array of numbers
+// Result: The given array must be modified to remove all zero values
+// Returns: true if given array inlcuded zero valse; false otherwise
+document.write('<h1>Exercise 4.8</h1>');
