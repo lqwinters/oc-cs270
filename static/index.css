@@ -15,12 +15,27 @@ h1.page-header {
 
 h2 {
     font-family: sans-serif;
-    padding-left: 10em;
+    padding-left: 2em;
     font-weight: lighter;
-    
 }
 
 ul {
     padding-left: 20em;
     font-family: sans-serif;
+}
+
+table {
+    padding-left: 20em;
+    border-collapse:collapse;
+}
+
+td {
+    height:50px;
+    width: 150px;
+    vertical-align:center;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid black;
 }
