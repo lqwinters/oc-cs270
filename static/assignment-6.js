@@ -1,4 +1,4 @@
-// assignment-5.js
+// Assignment-6.js
 // Excercise 5.1 from chapeter 5. Modify the radio_click.html example
 // to have five buttons, labeled red, blue, green, yellow and orange.
 // The event handlers for these buttons must produce messages stating

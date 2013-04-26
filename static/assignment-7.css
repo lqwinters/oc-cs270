@@ -1,0 +1,23 @@
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+p.regtext {
+	position: absolute; 
+	top: 33%; 
+	left: 35%;
+	font-family: Times; 
+	font-size: 14pt; 
+	width: 330px
+}
+
+p.img {
+	background-image: url("images/IMG_0994.JPG");
+	position: absolute;
+	left: 8%;
+	top: 13%; 
+	height:750px; 
+	width: 1051px;
+	opacity:0.4 
+}
